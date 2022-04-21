@@ -1,0 +1,68 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-family: 'Limelight', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px black;
+    white-space: nowrap;
+}
+
+.name {
+    font-family: 'Limelight', cursive;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#socials {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#main-content-container {
+    position: relative;
+}
+
+#bio {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3em;
+    max-width: 70vw;
+    max-height: 70vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4em;
+}
+
+#bio p {
+    font-size: 1.1em;
+    color: black;
+}
+
+#main-carousel-container {
+    position: absolute;
+    z-index: -1;
+}
+
+#carousel-1 {
+    background-image: url("assets/c1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#carousel-2 {
+    background-image: url("assets/c2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#carousel-3 {
+    background-image: url("assets/c3.jpg");
+    background-size: cover;
+    background-position: center;
+}
