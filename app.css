@@ -78,3 +78,32 @@ body {
         max-height: 70vh;
     }
 }
+
+@media (max-width: 400px) {
+    #bio p {
+        font-size: 1em;
+        color: black;
+    }
+}
+
+@media (max-width: 300px) {
+    #bio p {
+        font-size: 0.9em;
+        color: black;
+    }
+}
+
+@media (max-width: 250px) {
+    #site-container {
+        min-width: 250px;
+    }
+    
+    #bio {
+        min-width: 250px;
+    }
+    
+    #bio p {
+        font-size: 0.8em;
+        color: black;
+    }
+}
