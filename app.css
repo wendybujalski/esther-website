@@ -50,19 +50,19 @@ h1 {
 }
 
 #carousel-1 {
-    background-image: url("assets/c1.jpg");
+    background-image: url("./assets/c1.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #carousel-2 {
-    background-image: url("assets/c2.jpg");
+    background-image: url("./assets/c2.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #carousel-3 {
-    background-image: url("assets/c3.jpg");
+    background-image: url("./assets/c3.jpg");
     background-size: cover;
     background-position: center;
 }
