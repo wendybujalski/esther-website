@@ -1,9 +1,14 @@
+@font-face {
+    font-family: titleFont;
+    src: url(./assets/font.otf);
+}
+
 body {
     font-family: 'Playfair Display', serif;
 }
 
 h1 {
-    font-family: 'Mr Dafoe', cursive;
+    font-family: titleFont, 'Mr Dafoe', cursive;
     text-align: center;
     color: white;
     text-shadow: 4px 4px black;
