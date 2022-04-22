@@ -17,12 +17,6 @@ body {
     padding-top: 0.2em;
 }
 
-.name {
-    font-family: 'Mr Dafoe', cursive;
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
 #socials {
     width: 100%;
     text-align: center;
@@ -32,6 +26,12 @@ body {
     width: 5em;
     height: 5em;
     margin: 1em 2em;
+    border-radius: 1.3em;
+    transition: box-shadow .3s;
+}
+
+#socials img:hover {
+    box-shadow: 0 0 60px rgb(255,255,0); 
 }
 
 #main-content-container {
@@ -40,13 +40,39 @@ body {
 
 #bio {
     padding: 3em;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 4em;
 }
 
 #bio p {
     font-size: 1.1em;
+    font-weight: 420;
     color: black;
+}
+
+#bio a {
+    color: red;
+    text-decoration: none;
+}
+
+#bio a:hover {
+    text-decoration: underline;
+}
+
+#bio .name {
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 720;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+#bio .go-blue {
+    font-family: 'Graduate', cursive;
+    font-weight: 720;
+}
+
+#bio .go-blue a {
+    color: #00274C;
 }
 
 #main-carousel-container {
