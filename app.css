@@ -103,6 +103,36 @@ body {
     background-position: center;
 }
 
+#credit {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0.8em;
+    margin: 0.8em;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8em;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 1em;
+}
+
+#credit a {
+    color: red;
+    text-decoration: none;
+}
+
+#credit a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.wendy {
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 0.8em;
+    font-family: 'Tangerine', cursive;
+}
+
 @media (min-width: 750px) and (min-height: 800px) {
     #bio {
         position: absolute;
