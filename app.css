@@ -41,9 +41,11 @@ body {
 
 #main-content-container {
     position: relative;
+    text-align: center;
 }
 
 #bio {
+    text-align: left;
     padding: 3em;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 4em;
@@ -104,11 +106,9 @@ body {
 }
 
 #credit {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+    display: inline-block;
     padding: 0.8em;
-    margin: 0.8em;
+    margin: 2em;
     font-family: 'Playfair Display', serif;
     font-size: 0.8em;
     font-style: italic;
@@ -133,7 +133,7 @@ body {
     font-family: 'Tangerine', cursive;
 }
 
-@media (min-width: 750px) and (min-height: 800px) {
+@media (min-width: 850px) and (min-height: 800px) {
     #bio {
         position: absolute;
         top: 50%; left: 50%;
@@ -146,6 +146,13 @@ body {
         position: fixed;
         bottom: 1em;
         left: 0;
+    }
+
+    #credit {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 0.8em;
     }
 }
 
