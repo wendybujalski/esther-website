@@ -15,10 +15,11 @@ body {
     text-shadow: 4px 4px black;
     white-space: nowrap;
     padding-top: 0.2em;
+    transition: text-shadow .3s;
 }
 
 #name-h1:hover {
-    text-shadow: 4px 4px black, 0 0 60px rgb(255,255,0);
+    text-shadow: 4px 4px black, 0 0 100px rgb(255,255,0);
 }
 
 #socials {
