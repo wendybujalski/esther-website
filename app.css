@@ -133,6 +133,91 @@ body {
     font-family: 'Tangerine', cursive;
 }
 
+#bio .hiddenlink {
+    color: black;
+    text-decoration: none;
+}
+
+#bio .hiddenlink:hover {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.show {
+    font-weight: 900;
+}
+
+.email_link {
+    margin-bottom: 0;
+}
+
+.email_link a:hover {
+    animation: rainbow 1.2s infinite;
+}
+
+.email_link a {
+    font-weight: 700;
+}
+
+#bio .purple:hover {
+    color: #A020F0;
+}
+
+.purple:hover::before {
+    content: "💜 "; 
+}
+
+.purple:hover::after {
+    content: " 💜"; 
+}
+
+.hover_thing:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.comedian:hover::before {
+    content: "😂 ";
+}
+
+.comedian:hover::after {
+    content: " 🤣";
+}
+
+.singer:hover::before {
+    content: "🎤 ";
+}
+
+.singer:hover::after {
+    content: " 🎶";
+}
+
+.musical_writer:hover::before {
+    content: "🎹 ";
+}
+
+.musical_writer:hover::after {
+    content: " ✏️";
+}
+
+.love:hover::before {
+    content: "💖 ";
+}
+
+.love:hover::after {
+    content: " 💖";
+}
+
+.show {
+    transition: .3s;
+}
+
+#bio .show:hover {
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 0 0 10px rgb(255,0,255), 0 0 20px rgb(255,0,255), 0 0 30px rgb(255,0,255);
+}
+
 @-webkit-keyframes rainbow {
     0%, 100% { color: red; }
     15%      { color: #ff8800; }
@@ -156,6 +241,33 @@ body {
     70%      { color: blue; }
     80%      { color: purple; }
     90%      { color: magenta; }
+}
+
+@-webkit-keyframes jiggle {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(-1px, 0); }
+    20% { transform: translate(1px, 1px); }
+    30% { transform: translate(1px, 0); }
+    40% { transform: translate(0, 1px); }
+    50% { transform: translate(-1px, -1px); }
+    60% { transform: translate(-1px, 0); }
+    70% { transform: translate(-1px, 1px); }
+    80% { transform: translate(0, -1px); }
+    90% { transform: translate(1px, -1px); }
+    100% { transform: translate(1px, 1px); }
+}
+@keyframes jiggle {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(-1px, 0); }
+    20% { transform: translate(1px, 1px); }
+    30% { transform: translate(1px, 0); }
+    40% { transform: translate(0, 1px); }
+    50% { transform: translate(-1px, -1px); }
+    60% { transform: translate(-1px, 0); }
+    70% { transform: translate(-1px, 1px); }
+    80% { transform: translate(0, -1px); }
+    90% { transform: translate(1px, -1px); }
+    100% { transform: translate(1px, 1px); }
 }
 
 @media (min-width: 850px) and (min-height: 800px) {
