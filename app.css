@@ -105,6 +105,30 @@ body {
     background-position: center;
 }
 
+#carousel-4 {
+    background-image: url("./assets/c4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#carousel-5 {
+    background-image: url("./assets/c5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#carousel-6 {
+    background-image: url("./assets/c6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#carousel-7 {
+    background-image: url("./assets/c7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 #credit {
     display: inline-block;
     padding: 0.8em;
@@ -173,7 +197,6 @@ body {
 
 .hover_thing:hover {
     font-weight: 700;
-    cursor: pointer;
 }
 
 .comedian:hover::before {
